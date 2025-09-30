@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['register'])) {
     <div class="w-full max-w-md">
         <!-- Logo/Title -->
         <div class="text-center mb-8">
-            <h1 class="text-4xl font-bold text-gray-800 mb-2">Product Money Planner</h1>
+            <h1 class="text-4xl font-bold text-gray-800 mb-2">Product Planner</h1>
             <p class="text-gray-600">Create your free account</p>
         </div>
         
