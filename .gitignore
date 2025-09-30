@@ -1,0 +1,11 @@
+database.sql
+config.php
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.iml
+*.log
+*.tmp
+*~
