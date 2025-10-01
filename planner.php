@@ -155,7 +155,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['save_project'])) {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <a href="dashboard.php" class="text-xl font-bold text-gray-800">Product Money Planner</a>
+                    <a href="dashboard.php" class="text-xl font-bold text-gray-800"><?php echo SITE_NAME; ?></a>
                 </div>
                 <div class="flex items-center space-x-4">
                     <a href="dashboard.php" class="text-gray-700 hover:text-gray-900">My Plans</a>

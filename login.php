@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
     <div class="w-full max-w-md">
         <!-- Logo/Title -->
         <div class="text-center mb-8">
-            <h1 class="text-4xl font-bold text-gray-800 mb-2">Product Planner</h1>
+            <h1 class="text-4xl font-bold text-gray-800 mb-2"><?php echo SITE_NAME; ?></h1>
             <p class="text-gray-600">Plan your business finances easily</p>
         </div>
         

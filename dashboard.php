@@ -34,7 +34,7 @@ $active_projects = count(array_filter($projects, function($p) { return $p['statu
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <h1 class="text-xl font-bold text-gray-800">Product Money Planner</h1>
+                    <h1 class="text-xl font-bold text-gray-800"><?php echo SITE_NAME; ?></h1>
                 </div>
                 <div class="flex items-center space-x-4">
                     <span class="text-gray-700">Welcome, <strong><?php echo htmlspecialchars($_SESSION['full_name']); ?></strong></span>
